@@ -7,11 +7,13 @@ figure{
 
 hgroup {
   text-align: center;
+  margin-top: 15%
 }
 
 section {
   padding: 0;
   margin: 0;
+  background-color: antiquewhite;
 }
 
 img {
@@ -33,15 +35,26 @@ div {
 
 .button {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid aliceblue;
   border-radius: 10px;
   width: 15%;
   margin: 0 auto;
   padding: 1%;
+  background-color: aliceblue;
+}
+
+.button:hover{
+  transform: scale(1.1);
+  background-color: burlywood;
 }
 
 .button a{
   text-decoration: none;
+  color: grey;
+}
+
+.button a:hover{
+  color: white;
 }
 
 nav {
