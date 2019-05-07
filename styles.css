@@ -7,17 +7,18 @@ html {
 figure{
   padding: 0;
   margin: 0;
+  width: 70%;
+  float: left;
 }
 
 hgroup {
   text-align: center;
-  margin-top: 15%
+  margin-top: 45%;
 }
 
 section {
   padding: 0;
   margin: 0;
-  height: 100vh;
 }
 
 img {
@@ -29,20 +30,13 @@ body {
   padding: 0;
 }
 
-article {
-  
-}
-
-div {
-  
-}
-
 .button {
   text-align: center;
   border: 1px solid aliceblue;
   border-radius: 10px;
   width: 20%;
   margin: 0 auto;
+  margin-top: 10%;
   padding: 1%;
   background-color: aliceblue;
 }
@@ -63,6 +57,7 @@ div {
 
 nav {
   text-align: center;
+  margin-top: 10%;
 }
 
 ul {
@@ -84,6 +79,28 @@ p {
   width: 80%;
   margin: 0 auto;
   padding: 2%;
+  margin-top: 10%;
+  text-align: justify;
 }
 
+aside {
+  width: 30%;
+  float: right;
+}
 
+/* --------------------- media ------------------------ */
+
+@media(max-width: 1000px){
+  figure{
+    float: none;
+    width: 100%;
+  }
+  aside{
+    float: none;
+    width: 100%;
+  }
+  
+  hgroup{
+    margin-top: 10%;
+  }
+}
