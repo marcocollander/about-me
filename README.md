@@ -1,2 +1,2 @@
 # about-me
-Zadanie w ramach bootcamp 2019-03 Codeberry
+#### project can be viewed [here](https://marcocollander.github.io/about-me/)
